@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1469079734843460');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1469079734843460&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Deepak Wadhwa | Official Telegram Community</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#07111f,#020617);
+    color:white;
+    text-align:center;
+    min-height:100vh;
+}
+
+.container{
+    max-width:420px;
+    margin:auto;
+    padding:25px 18px 40px;
+}
+
+/* HEADER */
+
+.header{
+    background:#111827;
+    border:1px solid rgba(255,255,255,0.05);
+    padding:24px 20px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.35);
+}
+
+.profile-img{
+    width:90px;
+    height:90px;
+    border-radius:16px;
+    object-fit:cover;
+    border:2px solid #22c55e;
+    margin-bottom:12px;
+}
+
+.header h2{
+    font-size:28px;
+    margin-bottom:8px;
+}
+
+.header p{
+    color:#cbd5e1;
+    font-size:14px;
+    margin-bottom:14px;
+}
+
+.badges{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.badge{
+    background:#22c55e20;
+    color:#22c55e;
+    padding:6px 12px;
+    border-radius:999px;
+    font-size:12px;
+    font-weight:600;
+}
+
+/* BUTTONS */
+
+.btn{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    margin-top:18px;
+    padding:15px;
+    border-radius:14px;
+    text-decoration:none;
+    background:linear-gradient(135deg,#22c55e,#00e0b8);
+    color:#000;
+    font-size:15px;
+    font-weight:700;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+/* CARDS */
+
+.card{
+    background:#111827;
+    border:1px solid rgba(255,255,255,0.05);
+    padding:16px;
+    border-radius:16px;
+    margin-top:14px;
+    font-size:14px;
+    color:#e2e8f0;
+    line-height:1.5;
+}
+
+/* FOOTER */
+
+.footer{
+    margin-top:20px;
+    font-size:12px;
+    color:#94a3b8;
+}
+
+/* POPUP */
+
+.popup{
+    position:fixed;
+    right:15px;
+    bottom:18px;
+    width:300px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:#0f172a;
+    border:1px solid rgba(255,255,255,0.08);
+    padding:12px;
+    border-radius:16px;
+    opacity:0;
+    transition:opacity 0.5s ease;
+    z-index:9999;
+}
+
+.popup.show{
+    opacity:1;
+}
+
+.popup-logo{
+    width:42px;
+    height:42px;
+    border-radius:12px;
+    object-fit:cover;
+    border:1px solid #22c55e;
+}
+
+.popup-text{
+    text-align:left;
+    font-size:12px;
+    line-height:1.5;
+    color:#cbd5e1;
+}
+
+.popup-text a{
+    color:#22c55e;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.popup-badge{
+    display:block;
+    color:#22c55e;
+    margin-bottom:2px;
+    font-size:11px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+
+        <img src="j.jpeg" class="profile-img" alt="Deepak Wadhwa">
+
+        <h2>📈 DEEPAK WADHWA</h2>
+
+        <p>Stock Market Educator & Trading Community</p>
+
+        <div class="badges">
+            <span class="badge">Live Market Updates</span>
+            <span class="badge">Free Telegram Access</span>
+            <span class="badge">Trading Education</span>
+        </div>
+
+    </div>
+
+    <!-- JOIN BUTTON -->
+    <a class="btn" href="#" id="joinBtn">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="20">
+
+        Join Telegram Channel
+
+    </a>
+
+    <!-- INFO CARDS -->
+    <div class="card">
+        📊 Daily Stock Market Analysis & Market Insights
+    </div>
+
+    <div class="card">
+        📚 Beginner Friendly Trading Learning Content
+    </div>
+
+    <div class="card">
+        ⚡ Intraday, Swing & Options Market Discussions
+    </div>
+
+    <div class="card">
+        📈 Technical Analysis & Market Trend Updates
+    </div>
+
+    <!-- SECOND BUTTON -->
+    <a class="btn" href="#" id="joinBtn2">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="20">
+
+        Join Free Community
+
+    </a>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        Educational content only. Not financial advice.
+    </div>
+
+</div>
+
+<!-- POPUP -->
+<div id="adPopup" class="popup">
+
+    <img src="ka.jpg" class="popup-logo">
+
+    <div class="popup-text">
+
+        <span class="popup-badge">✔ Verified Ads Partner</span>
+
+        Ads managed by
+        <a href="https://t.me/+hwUyreNlEtZjMmY1" target="_blank">
+            Kavi Ads Agency
+        </a>
+
+    </div>
+
+</div>
+
+<!-- SCRIPT -->
+<script>
+
+const TELEGRAM_LINK = "https://t.me/+CphRKMz4CB8zY2Y1";
+
+/* ELEMENTS */
+const popup = document.getElementById("adPopup");
+
+const joinBtn = document.getElementById("joinBtn");
+const joinBtn2 = document.getElementById("joinBtn2");
+
+/* PREVENT DOUBLE EVENT */
+let leadFired = false;
+
+/* LEAD TRACKING */
+function fireLeadOnce(){
+
+    if(leadFired){
+        return;
+    }
+
+    leadFired = true;
+
+    if(typeof fbq === "function"){
+        fbq('track', 'Lead');
+    }
+
+}
+
+/* REDIRECT */
+function redirectUser(){
+
+    setTimeout(function(){
+
+        window.location.href = TELEGRAM_LINK;
+
+    },300);
+
+}
+
+/* CLICK HANDLER */
+function handleJoin(e){
+
+    e.preventDefault();
+
+    fireLeadOnce();
+
+    redirectUser();
+
+}
+
+/* BUTTON EVENTS */
+if(joinBtn){
+    joinBtn.addEventListener("click", handleJoin);
+}
+
+if(joinBtn2){
+    joinBtn2.addEventListener("click", handleJoin);
+}
+
+/* POPUP */
+function showPopup(){
+
+    popup.classList.add("show");
+
+    setTimeout(function(){
+
+        popup.classList.remove("show");
+
+    },4000);
+
+}
+
+/* AUTO POPUP */
+setTimeout(showPopup,2000);
+
+setInterval(showPopup,12000);
+
+</script>
+
+</body>
+</html>
